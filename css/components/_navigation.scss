@@ -1,0 +1,30 @@
+header {
+    background-color: $grey;
+    width: 100%;
+    position: fixed;
+}
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: .8rem;
+    justify-content: flex-end;
+    font-family: "special_eliteregular", serif;
+    li {
+        margin: 25px;
+        a {
+            text-decoration: none;
+            color: $white;
+        }
+    }
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: $white;
+}

@@ -1,0 +1,47 @@
+div.info {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 66px;
+    width: 100%;
+    height: 90vh;
+    // border: solid red 1px;
+    img {
+        box-shadow: 0px 0px 7px $grey;
+        width: 30%;
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+    .bio {
+        width: 60%;
+    }
+}
+
+section.social {
+    background-color: $grey;
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        color: $white;
+        font-size: 2rem;
+        margin: 0 20px;
+    }
+}
+
+div#instafeed {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    a {
+        img {
+            width: 100%;
+        }
+    }
+}

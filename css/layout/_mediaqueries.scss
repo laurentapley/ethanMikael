@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px)  {
+    header {
+        ul {
+            font-size: .7rem;
+            justify-content: center;
+        }
+    }
+
+    div.info {
+        flex-direction: column;
+        img {
+            width: 100%;
+            margin: 0;
+            box-shadow: none;
+        }
+    }
+}
