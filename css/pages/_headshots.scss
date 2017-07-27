@@ -1,0 +1,25 @@
+div.headshot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    .slidebox {
+        width: 31%;
+        img {
+            width: 100%;
+        }
+    }
+    div.headshots {
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 6.2%;
+        margin-left: 10px;
+        img {
+            width: 100%;
+            margin: 0;
+        }
+    }
+}

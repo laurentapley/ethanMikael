@@ -52,13 +52,13 @@ body {
   flex-flow: column; }
 
 main {
-  padding-top: 120px;
-  min-height: 100vh; }
+  padding-top: 120px; }
 
 h1 {
   font-size: 3.5rem;
   font-family: "special_eliteregular", serif;
-  padding: 15px; }
+  padding: 15px 0;
+  text-align: center; }
 
 h2 {
   font-size: 1.5rem;
@@ -95,7 +95,7 @@ ul {
       color: whitesmoke; }
 
 .logo {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: whitesmoke; }
 
 footer {
@@ -118,21 +118,25 @@ footer {
     font-size: 2rem;
     padding: 10px; }
 
+section.feed {
+  width: 60%;
+  padding: 20px 0;
+  margin: auto; }
+
 div.info {
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 100%; }
   div.info img {
     box-shadow: 0px 0px 7px #212121;
     width: 30%;
-    margin: 40px 0; }
-  div.info h1 {
-    width: 100%;
-    text-align: center; }
+    margin: 30px 0; }
   div.info .bio {
-    width: 60%; }
+    margin: 20px;
+    padding: 10px;
+    width: 35%; }
 
 section.social {
   background-color: #212121;
@@ -153,6 +157,27 @@ div#instafeed {
   justify-content: flex-start; }
   div#instafeed a img {
     width: 100%; }
+
+div.headshot-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0;
+  width: 100%; }
+  div.headshot-container .slidebox {
+    width: 31%; }
+    div.headshot-container .slidebox img {
+      width: 100%; }
+  div.headshot-container div.headshots {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 6.2%;
+    margin-left: 10px; }
+    div.headshot-container div.headshots img {
+      width: 100%;
+      margin: 0; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -2478,6 +2503,9 @@ div#instafeed {
   overflow: visible;
   clip: auto; }
 
+@media only screen and (max-width: 1060px) {
+  main {
+    padding-top: 186px; } }
 @media only screen and (max-width: 600px) {
   header ul {
     font-size: .7rem;
