@@ -1,9 +1,8 @@
 <?php
-require("req_globals.php");
-include("include_head.php");
-include("include_nav.php");
+    require("inc/req_globals.php");
+    include("inc/include_head.php");
+    include("inc/include_nav.php");
  ?>
-    <main>
         <div class="info">
             <img src="_img/Ethan BND20170626_181257.jpg" alt="Ethan Mikael Tapley Acting">
             <div class="bio">
@@ -14,6 +13,8 @@ include("include_nav.php");
                 <p>With a penchant for voices and accents Ethan makes transforming into a role look effortless. As well as being an actor, Ethan writes and is an avid photographer.</p>
         </div>
         </div>
-        <?php include("include_social.php"); ?>
-        <?php include("include_feeds.php"); ?>
-        <?php include("include_footer.php"); ?>
+<?php
+include("inc/include_social.php");
+include("inc/include_feeds.php");
+include("inc/include_footer.php");
+ ?>

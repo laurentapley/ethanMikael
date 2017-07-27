@@ -52,7 +52,8 @@ body {
   flex-flow: column; }
 
 main {
-  padding-top: 120px; }
+  padding-top: 120px;
+  min-height: 100vh; }
 
 h1 {
   font-size: 3.5rem;
@@ -107,7 +108,7 @@ footer {
   font-family: "special_eliteregular", serif;
   font-size: .5rem;
   padding: 10px;
-  margin-bottom: 0;
+  margin-bottom: auto;
   text-align: center; }
   footer div.social div.bottom-bar {
     display: flex;
