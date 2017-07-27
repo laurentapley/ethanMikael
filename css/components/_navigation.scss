@@ -1,12 +1,12 @@
 header {
-    background-color: $grey;
+    background-color: $nav-grey;
     width: 100%;
     position: fixed;
 }
 nav {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 ul {
@@ -25,6 +25,6 @@ ul {
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: $white;
 }

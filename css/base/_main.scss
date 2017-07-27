@@ -11,10 +11,19 @@ body {
     display: flex;
     flex-flow: column;
 }
+main {
+    padding-top: 120px;
+}
 h1 {
     font-size: 3.5rem;
     font-family: "special_eliteregular", serif;
     padding: 15px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: "special_eliteregular", serif;
+    display: inline;
 }
 
 p {
