@@ -11,5 +11,25 @@
                 <a href="#" class="fa fa-imdb"></a>
             </div>
         </footer>
+        <script type="text/javascript">
+        function classToggle(){
+            document.getElementById('dropdown-content').classList.remove('hide');
+            document.getElementById('dropdown-content').classList.add('show');
+        }
+            document.getElementById('button').addEventListener('click', classToggle);
+
+        window.onclick = function(event) {
+            if (!event.target.matches('burger')) {
+                var dropdown = document.getElementById('dropdown-content');
+                var i;
+                for (i = 0; i < dropdown.length; i++) {
+                    var openDropdown = dropdown[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        </script>
     </body>
 </html>

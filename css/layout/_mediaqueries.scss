@@ -1,6 +1,23 @@
 @media only screen and (max-width: 1060px) {
     main {
-        padding-top: 186px;
+        padding-top: 150px;
+    }
+    ul {
+        margin: 0;
+    }
+    .slidebox {
+        width: 31%;
+        img {
+            width: 100%;
+        }
+    }
+    .headshots {
+        width: 6.2%;
+        margin-left: 10px;
+        img {
+            width: 100%;
+            margin: 0;
+        }
     }
 }
 
