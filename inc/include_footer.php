@@ -13,8 +13,9 @@
         </footer>
         <script type="text/javascript">
         function classToggle(){
-            document.getElementById('dropdown-content').classList.remove('hide');
-            document.getElementById('dropdown-content').classList.add('show');
+            //changed this line so that it just toggles which is the same as add and remove and inside the toggle the initial value is hide
+            document.getElementById('dropdown-content').classList.toggle('hide');
+
         }
             document.getElementById('button').addEventListener('click', classToggle);
 
